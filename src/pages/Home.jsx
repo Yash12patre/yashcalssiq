@@ -12,7 +12,7 @@ export const Home = () => {
             <div className="w-full md:w-1/2">
               <h1 className="font-light text-4xl sm:text-5xl md:text-6xl leading-tight">
                 Empower Your Learning Journey with{" "}
-                <span className="font-semibold ml-3 relative inline-block">
+                <span className="font-semibold ml-3 relative inline-block pb-2">
                   ClassIQ{" "}
                   <img
                     className="absolute right-0 bottom-0 w-24 sm:w-36 md:w-auto"
