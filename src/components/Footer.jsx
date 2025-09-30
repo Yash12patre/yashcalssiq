@@ -18,13 +18,13 @@ export const Footer = () => {
                 Subscribe for the latest courses, tips, and updates. Join our
                 learning community today!
               </p>
-              <div className="bg-[#ffffff] w-fit rounded-lg p-2 mt-5 flex items-center">
+              <div className="bg-[#ffffff] w-full sm:w-fit rounded-lg p-2 mt-5 flex flex-col sm:flex-row items-stretch sm:items-center gap-2">
                 <input
-                  type="text"
+                  type="email"
                   placeholder="Enter your email"
-                  className="rounded-lg px-4 py-2 outline-none w-72"
+                  className="rounded-lg px-4 py-2 outline-none w-full sm:w-72"
                 />
-                <button className="bg-[#C2F578] rounded-lg px-4 py-3 h-full ml-2 text-xs font-semibold text-[#373636]">
+                <button className="bg-[#C2F578] rounded-lg px-4 py-3 h-full sm:ml-2 text-xs font-semibold text-[#373636]">
                   Subscribe
                 </button>
               </div>
