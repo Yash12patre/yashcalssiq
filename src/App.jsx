@@ -3,7 +3,7 @@ import "./App.css";
 import { Course } from "./pages/Course";
 import { Home } from "./pages/Home";
 import { Login } from "./pages/Login";
-import { Sing } from "./pages/Sing";
+import { Signup } from "./pages/Signup";
 import { Body } from "./pages/Body";
 
 const router = createBrowserRouter([
@@ -24,8 +24,8 @@ const router = createBrowserRouter([
         element: <Login />,
       },
       {
-        path: "/singup",
-        element: <Sing />,
+        path: "/signup",
+        element: <Signup />,
       },
     ],
   },

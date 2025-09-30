@@ -1,14 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import { Footer } from "../components/Footer";
 
-export const Sing = () => {
+export const Signup = () => {
   const navigate = useNavigate();
   return (
     <>
       <div className="w-full max-w-7xl mx-auto px-6 md:px-10 lg:px-20 bg-[#F5F5F5] font-poppins selection:bg-[#C2F578] selection:text-black">
         <div className="h-[85vh] flex items-center justify-center">
           <div className="bg-[#ECEDEF] flex flex-col items-center py-7 px-14 rounded-2xl">
-            <h1 className="text-xl font- text-center">Sing Up</h1>
+            <h1 className="text-xl font- text-center">Sign Up</h1>
             <form action="" className="mt-6">
               <div className="mt-4">
                 <label
@@ -53,7 +53,7 @@ export const Sing = () => {
                 />
               </div>
               <button className="w-full py-2 mt-4 text-black bg-[#c2f578] rounded-md hover:bg-[#a5cf66] transition-colors ease-linear hover:text-black">
-                SingUp
+                SignUp
               </button>
             </form>
             <span className="text-center font-medium text-sm pt-5">

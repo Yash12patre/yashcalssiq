@@ -26,10 +26,10 @@ export const Header = () => {
             Login
           </button>
           <button
-            onClick={() => navigate("/singup")}
+            onClick={() => navigate("/signup")}
             className="font-semibold bg-black hover:bg-[#181818] text-white rounded-lg px-5 py-2.5 cursor-pointer"
           >
-            SingUp
+            SignUp
           </button>
         </div>
       </div>

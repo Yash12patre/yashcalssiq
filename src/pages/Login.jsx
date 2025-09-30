@@ -37,11 +37,11 @@ export const Login = () => {
             <span className="text-center text-sm font-medium pt-5">
               Don’t have an account ?{` `}
               <a
-                onClick={() => navigate("/singup")}
+                onClick={() => navigate("/signup")}
                 href=""
                 className="underline"
               >
-                Sing Up
+                Sign Up
               </a>
             </span>
           </div>
